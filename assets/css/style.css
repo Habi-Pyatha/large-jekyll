@@ -28,6 +28,11 @@ body{
 .flex{
     display: flex;
 }
+.center{
+    text-align: center;
+    font-weight: 200;
+    text-shadow:1px 1px 1px black ;
+}
 .wrapper{
     width: 90%;
     margin: auto;
