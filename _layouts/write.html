@@ -5,15 +5,16 @@ layout: home
     {{content}}
 </div>
 
-<!-- <form action="" class="form" id="boardForm">
+<form action="http://localhost:4000/create_board" class="form" id="boardForm">
 
     <input type="text" name="board_name" placeholder="board name" class="tit" id="boardName">
      <br>       
     
     <input type="Submit" value="Submit">
-</form> -->
+</form>
 
-<form action="" class="form">
+<form action="http://localhost:4567/create_card" method="POST" class="form">
+
 
     <input type="text" name="title" placeholder="title" class="tit">
      <br>       
@@ -21,3 +22,5 @@ layout: home
     <textarea name="description" placeholder="description" class="desc"></textarea>
     <input type="Submit" value="Submit">
 </form>
+
+

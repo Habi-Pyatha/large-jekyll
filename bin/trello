@@ -1,0 +1,13 @@
+require "trello"
+
+unless ARGV.empty?
+  idList= ARGV.first.gsub(/^--/,'')
+  puts "idList passed: #{idList}"
+  Trello.creator(idList)
+  exit
+else
+  puts "You must pass your ldList as flags like this"
+  puts "trello --6759348bb364c0a0ad05e54c"
+end
+
+
